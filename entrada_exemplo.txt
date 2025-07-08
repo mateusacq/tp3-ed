@@ -58,10 +58,11 @@
 0000322 EV EN 002 003
 
 Especificação:
-<dh> CL <nome cliente>: Histórico dos pacotes associados a <nome cliente>.
-<dh> PC <identificador pacote>: Histórico do pacote <identificador pacote>.
-<dh> EV <identificador pacote> <tipo evento> <dados evento>: Evento as-
-sociado à tramitação de um pacote nos Armazéns Hanoi.
+Consultas em arquivo de saída obtido a partir da execuçãod o tp2 com determinada entrada
+A partir do exemplo, vemos o formato:
+<dh> CL <nome cliente>: Histórico dos pacotes associados a <nome cliente>. - Consulta CL
+<dh> PC <identificador pacote>: Histórico do pacote <identificador pacote>. - Consulta PC
+<dh> EV <identificador pacote> <tipo evento> <dados evento>: Evento associado à tramitação de um pacote nos Armazéns Hanoi. - Adiciona evento EV
 No âmbito do sistema logístico, o tipo de evento pode ser um dos seguintes:
 1. RG: Pacote ainda não foi postado (apenas registrado no sistema)
 2. AR: Pacote chegou no armazém e foi armazenado na respectiva seção
